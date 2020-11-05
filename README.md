@@ -35,4 +35,6 @@
 
 - #3 User Model 1
 
+- #4 Project, Issue, Attachment Model 1
+
     

@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 APPLICATION_APPS = [
     "users.apps.UsersConfig",
-    "core.apps.CoreConfig"
+    "core.apps.CoreConfig",
+    "projects.apps.ProjectsConfig",
+    "issues.apps.IssuesConfig",
 ]
 
 DJANGO_BUILTIN_APPS = [
