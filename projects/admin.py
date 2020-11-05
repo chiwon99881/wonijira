@@ -5,4 +5,13 @@ from . import models
 @admin.register(models.Project)
 class ProjectAdmin(admin.ModelAdmin):
 
-    pass
+    list_display = (
+        'name',
+        'key',
+        'leader'
+    )
+
+    list_filter = (
+        'name',
+        'key',
+    )

@@ -10,4 +10,24 @@ class AttachmentInline(admin.TabularInline):
 @admin.register(models.Issue)
 class IssueAdmin(admin.ModelAdmin):
 
-    inlines = (AttachmentInline,)
+    inlines = [AttachmentInline, ]
+
+    fields = (
+        'project',
+        'summary',
+        'description',
+        'reporter',
+        'assignee',
+    )
+
+    list_display = (
+        'key',
+        'summary',
+        'project',
+        'reporter'
+    )
+
+    list_display_links = (
+        'key',
+        'summary'
+    )

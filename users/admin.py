@@ -12,3 +12,14 @@ class CustomUserAdmin(admin.ModelAdmin):
 
     fields = ('username', 'email', 'avatar', 'first_name', 'last_name', 'groups')
     filter_horizontal = ('groups', )
+
+    list_display = (
+        'username',
+        'email',
+        'is_staff'
+    )
+
+    list_filter = (
+        'is_staff',
+        'username'
+    )
