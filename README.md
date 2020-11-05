@@ -33,6 +33,6 @@
 
     > python manage.py createsuperuser 
 
-
+- #3 User Model 1
 
     
