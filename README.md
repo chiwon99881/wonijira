@@ -38,3 +38,5 @@
 - #4 Project, Issue, Attachment Model 1
 
 - #5 Generate Issue Key like JIRA
+
+- #6 Issue Admin with Foreign Key
