@@ -14,4 +14,4 @@ class UserGroup(core_models.CustomBaseModel):
 class User(AbstractUser):
 
     avatar = models.ImageField(blank=True, null=True)
-    groups = models.ManyToManyField(UserGroup, related_name="user", blank=True)
+    groups = models.ManyToManyField(UserGroup, related_name="user")

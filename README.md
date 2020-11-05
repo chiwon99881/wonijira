@@ -40,3 +40,5 @@
 - #5 Generate Issue Key like JIRA
 
 - #6 Issue Admin with Foreign Key
+
+- #7 Template Settings
