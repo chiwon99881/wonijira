@@ -25,4 +25,14 @@
 
     > pipenv install flake8 black --dev 
 
+- #2 User Custom 1
+
+    > python manage.py makemigrations
+
+    > python manage.py migrate 
+
+    > python manage.py createsuperuser 
+
+
+
     
