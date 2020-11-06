@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block pagename %}
+    All Projects
+{% endblock pagename %}
+    
+
+{% block content %}
+{% for project in projects %}
+    <span>{{project.name}}</span>
+{% endfor %}
+{% endblock content %}
+    
