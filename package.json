@@ -1,0 +1,22 @@
+{
+  "name": "py",
+  "version": "1.0.0",
+  "description": "- #0 First Init",
+  "scripts": {
+    "css": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiwon99881/wonijira.git"
+  },
+  "homepage": "https://github.com/chiwon99881/wonijira#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
