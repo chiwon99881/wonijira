@@ -61,3 +61,5 @@
 - #10 Django Messages Framework
 
 - #11 Messages animation
+
+- #12 User Login,Logout Function
