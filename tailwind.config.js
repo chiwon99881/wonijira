@@ -5,7 +5,9 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Space Grotesk', 'sans-serif'],
+    }
   },
   variants: {},
   plugins: [],

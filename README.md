@@ -55,3 +55,5 @@
   > npm install autoprefixer@9.7.0 -D
 
   > npm run css
+
+- #9 Tailwindcss custom Font-Family
