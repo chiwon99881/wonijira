@@ -57,3 +57,5 @@
   > npm run css
 
 - #9 Tailwindcss custom Font-Family
+
+- #10 Django Messages Framework
